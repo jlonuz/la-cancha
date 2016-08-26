@@ -1,1 +1,53 @@
-/* Inserta tu CSS aqui */
+.pasto 	{
+	background-color: green;
+	border:1px solid black;
+	height: 800px;
+	margin-left:200px;
+	margin-right: 200px;
+}
+.lineaborde 	{
+	margin:20px;
+	border:2px solid white;
+	height:760px;
+	position:relative;
+}
+.circulo {
+	height: 250px;
+	width: 250px;
+	border-radius: 100%;
+	border: 2px solid white;
+	top:33%;
+	left:43%;
+	position: absolute;
+}
+.arco-left	{
+	height:270px;
+	width:130px;
+	float:left;
+	border:2px solid white;
+	top:30%;
+	position:relative;
+}
+.arco-right 	{
+	height:270px;
+	width:130px;
+	float:right;
+	border:2px solid white;
+	top:30%;
+	position: relative;
+}
+.ball-left 	{
+	position:absolute;
+	top:30%;
+	left:120px;
+}
+.ball-center {
+	position:absolute;
+	top:15%;
+	left:55%;
+}
+.ball-right {
+	position:absolute;
+	right:135px;
+	bottom:35%;
+}
